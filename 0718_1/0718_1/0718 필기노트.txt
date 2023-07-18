@@ -1,0 +1,100 @@
+자연어 
+
+사과는 둥글다. 빨갛다. 맛있다. 
+무늬가 있다. 과일이다. 
+
+
+컴퓨터 언어 
+C# 
+
+class AppleTree 
+{ 
+Apple [] apples;
+};
+
+//객체 지향은 큰 거를 잘 만들기 위함 (나눠서) 
+
+class apple 
+{
+int shape = 1; // 1: 둥글다, 2: 네모나다. 
+int color = 1; // 1: 빨갛다. 
+int taste = 1; // 1: 맛있다. 
+
+void Decay(); 
+void FallingDown(); 
+
+};
+
+
+
+자동차 
+
+구성 요소
+1. 바퀴 
+2. 차체 
+3. 엔진 
+4. 유리 
+5. 페인트 
+
+행동 요소 
+시동 걸기 
+움직이기 
+멈추기 
+달리기 
+회전하기 
+라이트 
+와이퍼 
+
+
+public class Bitmap 
+{ 
+public int x,y;
+public Pixel[] pixels;
+}
+
+public class Pixel
+{
+	public float r,g,b,a;
+	}
+	
+	image 
+	
+	Vertex 
+	0	
+	Index
+	
+	
+	테이블은 코드로 변환될 수 있고 
+	어떤 멤버변수를 가져야 하는지 막연하게 결정하는 것이 아니라 미리 설계된 
+	
+	메소드 프로퍼티 
+	C# 자바 
+	
+	
+	Column = 열 
+	
+	테이블 명 = class
+	
+	class Character 
+	{
+	public: 
+	
+	std:: map<int, Character (ID, Name, Str, Dex) // DB 
+	
+	mapCharacters[1] = new Character(1, L"캐릭1", 38, 34); 
+	
+	
+	JSON (몽고DB) 
+	
+	C10k problem 
+	
+	
+	
+	
+	데이터 모델링 (개발 과정 )
+	
+	기획서 - 테이블 - 프로그래밍 언어, 데이터베이스, 파일 포맷(만드는 이유: 저장하려고),패킷(네트워크 주고받는 구조) 포맷 
+	
+	
+	
+

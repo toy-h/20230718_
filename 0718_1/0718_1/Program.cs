@@ -8,9 +8,21 @@ namespace _0718_1
 {
     internal class Program
     {
+        
+        //count 가 지워지고 int 
+        static void Increase(ref int count)
+        {
+            count++;
+        }
+
+       
+
         static void Main(string[] args)
         {
-            Console.WriteLine("안녕!");
+            int number = 1;
+            //참조해서 쓸 거다 
+            Increase(ref number);
+            Console.WriteLine(number);
         }
     }
 }
