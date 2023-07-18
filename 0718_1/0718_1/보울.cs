@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System; // system 책 빌려오듯이 
+//using 라이브러리 가지고 오는 거 
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,31 +8,30 @@ using System.Threading.Tasks;
 namespace _0718_1
 {
     internal class Program
-    {//함수 단위로 실행 - 한 줄 (무조건 줄 단위) 
-        
-        //count 가 지워지고 int 
-        //true = 충돌 펄스 = 충돌x 충돌값 확인 
-        //ref 가리켜서 사용한다 - 메모리 사용이 다름 
+        // 인스턴스를 만든다. instance 
+        // 클래스는 설계도  -  메모리에 설계도 
+        // 4칸 쓸 거 5칸 쓰게끔 하는 거 
+        //
 
-        static bool IsCollide(int position, out int info)
-        {
-            bool check = false;
-            if ( check )
-            {
-                info = 0;
-                return  false;
-            }
-            else
-            { info = 10;
-                return true; }
-       
+       // int a = 10;
+    Image[] image = new image[100];
 
-        static void Main(string[] args)
-        {
-            int number = 1;
-            //참조해서 쓸 거다 
-            Increase(out number);
-            Console.WriteLine(number);
+    for (int i = 0; i < Image.Length; i++)
+
+{      //  image = null; 
+       // image.Dispose();
+   // a=10; 
+   /*
+    image.g;
+       image.b;
+   */
+
+
+        //garbage collection 
+        image = null;
+        a=null;
+
+         System.GC();
         }
     }
 }
